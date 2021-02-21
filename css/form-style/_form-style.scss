@@ -1,0 +1,33 @@
+.form-style {
+  width: 450px;
+  height: auto;
+  .days-free {
+    width: 450px;
+    height: 50px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin-right: 10px;
+    }
+  }
+
+  form {
+    width: 450px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+
+    input {
+      width: 400px;
+      height: 40px;
+    }
+    
+  }
+}
