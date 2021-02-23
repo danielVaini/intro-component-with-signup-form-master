@@ -2,9 +2,9 @@
 
 .layout { width: 80%; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
 
-* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; font-family: Poppins; }
 
-body, html { width: 100vw; height: 100vh; font-size: 16px; font-family: Poppins; background-color: #ff7a7a; }
+body, html { width: 100vw; height: 100vh; font-size: 16px; background-color: #ff7a7a; }
 
 .title-page { width: 450px; }
 
@@ -14,25 +14,37 @@ body, html { width: 100vw; height: 100vh; font-size: 16px; font-family: Poppins;
 
 .form-style { width: 500px; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.form-style .days-free { width: 450px; height: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.form-style .days-free { width: 450px; height: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #6055a5; margin-bottom: 20px; border-radius: 8px; -webkit-box-shadow: 0 8px rgba(38, 37, 45, 0.178); box-shadow: 0 8px rgba(38, 37, 45, 0.178); }
 
-.form-style .days-free p { margin-right: 10px; }
+.form-style .days-free p { color: white; }
+
+.form-style .days-free p span { font-weight: 700; }
 
 .form-style form { width: 450px; height: 450px; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 15px; }
 
-.form-style form input { width: 400px; height: 50px; margin: 15px 0; padding-left: 20px; }
+.form-style form .inputs { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.form-style form input::-webkit-input-placeholder { font-weight: 700; color: #b9b6d3; }
+.form-style form .inputs input { width: 400px; height: 50px; margin: 15px 0; padding-left: 20px; outline: none; border: 1px solid #b9b6d3; border-radius: 5px; font-weight: 700; -webkit-transition: all 0.2s; transition: all 0.2s; }
 
-.form-style form input:-ms-input-placeholder { font-weight: 700; color: #b9b6d3; }
+.form-style form .inputs input:focus { border: 2px solid #6055a5; }
 
-.form-style form input::-ms-input-placeholder { font-weight: 700; color: #b9b6d3; }
+.form-style form .inputs input::-webkit-input-placeholder { font-weight: 700; color: #87849a; }
 
-.form-style form input::placeholder { font-weight: 700; color: #b9b6d3; }
+.form-style form .inputs input:-ms-input-placeholder { font-weight: 700; color: #87849a; }
 
-.form-style form button { width: 400px; height: 40px; }
+.form-style form .inputs input::-ms-input-placeholder { font-weight: 700; color: #87849a; }
+
+.form-style form .inputs input::placeholder { font-weight: 700; color: #87849a; }
+
+.form-style form .inputs img { position: absolute; margin-left: 11%; }
+
+.form-style form button { width: 400px; height: 50px; color: white; background-color: #38cc8c; outline: none; border: 1px solid #2ba671; border-radius: 5px; font-weight: 500; cursor: pointer; }
+
+.form-style form button:active { border: 2px solid #2ba671; }
+
+.form-style form button:hover { background-color: #61d6a3; }
 
 .form-style form .terms { margin-top: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; font-size: 10px; }
 
-.form-style form .terms a { text-decoration: none; color: #6055a5; font-weight: 700; }
+.form-style form .terms a { text-decoration: none; color: #ff7a7a; font-weight: 700; }
 /*# sourceMappingURL=main.css.map */
