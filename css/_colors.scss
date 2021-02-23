@@ -2,6 +2,8 @@
 
 $red:  hsl(0, 100%, 74%);
 $green: hsl(154, 59%, 51%);
+$greenHover: hsl(154, 59%, 61%);
+$buttonBorder: hsl(154, 59%, 41%);
 
 // Acent
 
@@ -9,7 +11,9 @@ $blue: hsl(248, 32%, 49%);
 
 // Neutral
 
+$darkBlueShadow: hsla(248, 10%, 16%, 0.178);
 $darkBlue: hsl(249, 10%, 26%);
+$placeholderText: hsl(249, 10%, 56%);
 $grayishBlue: hsl(246, 25%, 77%);
 
 $text: white;
