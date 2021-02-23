@@ -20,5 +20,19 @@ body, html { width: 100vw; height: 100vh; font-size: 16px; font-family: Poppins;
 
 .form-style form { width: 450px; height: 450px; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 15px; }
 
-.form-style form input { width: 400px; height: 50px; margin: 15px 0; }
+.form-style form input { width: 400px; height: 50px; margin: 15px 0; padding-left: 20px; }
+
+.form-style form input::-webkit-input-placeholder { font-weight: 700; color: #b9b6d3; }
+
+.form-style form input:-ms-input-placeholder { font-weight: 700; color: #b9b6d3; }
+
+.form-style form input::-ms-input-placeholder { font-weight: 700; color: #b9b6d3; }
+
+.form-style form input::placeholder { font-weight: 700; color: #b9b6d3; }
+
+.form-style form button { width: 400px; height: 40px; }
+
+.form-style form .terms { margin-top: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; font-size: 10px; }
+
+.form-style form .terms a { text-decoration: none; color: #6055a5; font-weight: 700; }
 /*# sourceMappingURL=main.css.map */

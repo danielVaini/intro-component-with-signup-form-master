@@ -1,3 +1,5 @@
+@import '../colors';
+
 .form-style {
   width: 500px;
   height: auto;
@@ -42,9 +44,39 @@
 
       margin: 15px 0;
       
+      padding-left: 20px;
+    }
+
+    input::placeholder {
+     font-weight: 700;
+     color: $grayishBlue;
+
+     
+
+      
     }
 
     
-    
+    button {
+      width: 400px;
+      height: 40px;
+
+     // margin-bottom: 20px;
+    }
+
+    .terms {
+
+      margin-top: 20px;
+      display: flex;
+
+      font-size: 10px;
+
+      a {
+        text-decoration: none;
+
+        color: $blue;
+        font-weight: 700;
+      }
+    }
   }
 }
