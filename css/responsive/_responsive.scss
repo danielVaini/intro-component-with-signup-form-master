@@ -21,6 +21,14 @@
 @media (max-width: 550px) {
   .container {
     background: url(../../images/bg-intro-mobile.png);
+   
+
+      .attribution {
+          width: 280px;
+          text-align: center;
+        
+      }
+    
   }
   .title-page {
     width: 300px;
@@ -85,6 +93,8 @@
 }
 
 @media (max-width: 320px) {
+
+
   .title-page {
     p {
       width: 300px;
@@ -115,4 +125,5 @@
       }
     }
   }
+
 }
