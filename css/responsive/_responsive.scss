@@ -1,0 +1,118 @@
+@media (max-width: 1300px) {
+  .title-page {
+    p {
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 910px) {
+  .container {
+    height: auto;
+    align-items: center;
+    .layout{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    background: url(../../images/bg-intro-mobile.png);
+  }
+  .title-page {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      width: 250px;
+      font-size: 28px;
+      text-align: center;
+
+      margin-top: 30px;
+    }
+    p {
+      width: 350px;
+      text-align: center;
+      font-size: 19px;
+      margin-bottom: 40px;
+    }
+  }
+  .form-style {
+    width: 350px;
+    
+    .days-free {
+      width: 350px;
+      height: 100px;
+      p {
+        width: 180px;
+        text-align: center;
+      }
+    }
+
+    form {
+      width: 350px;
+
+      .inputs {
+
+        input{
+          width: 290px;
+        }
+
+        img {
+          margin-left: 120px;
+          margin-top: -8px;
+        }
+
+        
+
+      }
+      button {
+        width: 290px;
+      }
+
+      .terms {
+        width: 270px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .title-page {
+    p {
+      width: 300px;
+    }
+  }
+
+  .form-style {
+    width: 300px;
+
+    .days-free {
+      width: 300px;
+    }
+
+    form {
+      width: 300px;
+
+      .inputs {
+        input {
+          width: 250px;
+        }
+
+        img {
+          margin-left: 100px;
+        }
+      }
+      button {
+        width: 250px;
+      }
+    }
+  }
+}
