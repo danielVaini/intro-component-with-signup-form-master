@@ -6,7 +6,10 @@ const div = document.querySelectorAll('.inputs');
 
 
 
+
+
 function Teste() {
+
   inputs.forEach((item, index) => {
     let vazio = item.value == '';
     if(vazio){
